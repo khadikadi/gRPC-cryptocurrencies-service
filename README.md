@@ -1,5 +1,5 @@
 # gRPC-cryptocurrencies-service
-projet qui permetla creation d'un service API avec un client et serveur, le système affichant les prix en temps réel des cryptomonnaies
+projet qui permet la creation d'un service API avec un client et serveur, le système affichant les prix en temps réel des cryptomonnaies
 
 -Creation de répertoire pour le projet: 
 
@@ -29,7 +29,7 @@ rpc get_price (cryptocurrency) returns (market_price) {};
 
 } 
 
--utiliser le compilateur de protocole pour compiler le fichier crypto_service.proto
+-utilisation de compilateur de protocole pour la compilation de fichier "crypto_service.proto"
 
           python3 -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. crypto_service.proto
           
